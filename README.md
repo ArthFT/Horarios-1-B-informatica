@@ -153,7 +153,7 @@
 </div>
 
 <footer>
-  <p>&copy Site feito por Arthur 1° B info e Guilherme 2° B info.</p>
+  <p> &copy Site feito por Arthur 1° B info e Guilherme 2° B info.</p>
 </footer>
 
 </body>
