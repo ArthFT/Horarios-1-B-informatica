@@ -1,159 +1,58 @@
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tabela</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #00ffff, #8f94fb);
-  }
+<html lang= "pt-BR">
+	<head>
+		<body>
+<title> Another Dimension - Pop Money</title>
 
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow-x: auto; /* Adiciona scroll horizontal se necessário */
-  }
+ <style>
+ body{
+background-color: SkyBlue;
+font-family: Times New Roman;
+color: Snow;
+ }
+ </style>
+ 
+	<h1 style= "color: Black;"> Another Dimension </h1>
+	<img src="Another Dimension.jpg" size = "486" height = "186"/>
+ <hr size= "2" width= "100%"/>
+ <p>50, 000 feet in the air, let me take you on a ride (yeah)<br/>
+Girl, it feels so amazing when we can get away just you and I (oh)<br/>
+Another dimension, you take me away from reality<br/>
+Got me running away from the world with you (yeah)<br/></p>
+<p>
+Everything stops in time in this moment it's you I see (yeah)<br/>
+These stars in the sky they remind me of you and me<br/>
+Nobody compares to you, no, no<br/>
+Did not care and now I care for you, no, no<br/>
+Take you to another place, I don't mind for you and I to escape<br/>
+Can't you see the vision?<br/></p>
+<p>
+50, 000 feet in the air, let me take you on a ride (yeah)<br/>
+Girl, it feels so amazing when we can get away just you and I (oh)<br/>
+Another dimension, you take me away from reality<br/>
+Got me running away from the world with you<br/></p>
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
+Gimme a feeling, through the galaxy we go<br/>
+Take you to the Moon, girl, I know you down to roll (down to roll)<br/>
+Looking down with a bird's eye view<br/>
+No doubt in my mind, that's a moment I know that<br/>
+Nobody compares to you, no, no<br/>
+Did not care and now I care for you, no, no<br/>
+Take you to another place, I don't mind for you and I to escape<br/>
+Can't you see the vision?<br/></p>
+<p>
+50, 000 feet in the air, let me take you on a ride (yeah)<br/>
+Girl, it feels so amazing when we can get away just you and I (oh)<br/>
+Another dimension, you take me away from reality<br/>
+Got me running away from the world with you<br/></p>
+<p>
+50, 000 feet in the air, let me take you on a ride (yeah)<br/>
+Girl, it feels so amazing when we can get away just you and I<br/>
+Another dimension, you take me away from reality<br/>
+Got me running away from the world with you<br/>
+'Pares to you, no, no<br/>
+Care for you, no, no<br/></p>
 
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-  }
-
-  thead {
-    background-color: #f2f2f2;
-  }
-
-  tfoot {
-    background-color: #f2f2f2;
-  }
-
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-</style>
-</head>
-<body>
-
-<div class="container">
-  <h1 style="text-align: center;">Tabela de Horários</h1>
-
-  <table>
-    <caption>Horários das Aulas</caption>
-    <thead>
-      <tr>
-        <th>Ordem</th>
-        <th>Segunda-feira</th>
-        <th>Terça-feira</th>
-        <th>Quarta-feira</th>
-        <th>Quinta-feira</th>
-        <th>Sexta-feira</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1º Horário</td>
-        <td>AOC</td>
-        <td>Espanhol</td>
-        <td>Biologia</td>
-        <td>Artes</td>
-        <td>Eletiva Orientada</td>
-      </tr>
-      <tr>
-        <td>2º Horário</td>
-        <td>AOC</td>
-        <td>Língua Portuguesa</td>
-        <td>Biologia</td>
-        <td>Orientação Acadêmica</td>
-        <td>Eletiva Orientada</td>
-      </tr>
-      <tr>
-        <td>3º Horário</td>
-        <td>Língua Portuguesa</td>
-        <td>Língua Portuguesa</td>
-        <td>Orientação Acadêmica</td>
-        <td>Matemática</td>
-        <td>Geografia</td>
-      </tr>
-      <tr>
-        <td>4º Horário</td>
-        <td>Práticas Experimentais</td>
-        <td>AOC</td>
-        <td>Eletiva</td>
-        <td>Inglês</td>
-        <td>Geografia</td>
-      </tr>
-      <tr>
-        <td>5º Horário</td>
-        <td>Práticas Experimentais</td>
-        <td>AOC</td>
-        <td>Eletiva</td>
-        <td>Inglês</td>
-        <td>Educação Física</td>
-      </tr>
-      <tr>
-        <td>6º Horário</td>
-        <td>NEE</td>
-        <td>Matemática</td>
-        <td>NEE</td>
-        <td>Física</td>
-        <td>Educação Física</td>
-      </tr>
-      <tr>
-        <td>7º Horário</td>
-        <td>Sociologia</td>
-        <td>Matemática</td>
-        <td>NEE</td>
-        <td>Física</td>
-        <td>Química</td>
-      </tr>
-      <tr>
-        <td>8º Horário</td>
-        <td>Projeto de Vida</td>
-        <td>História</td>
-        <td>Informática Básica</td>
-        <td>Oficina Formativa</td>
-        <td>Química</td>
-      </tr>
-      <tr>
-        <td>9º Horário</td>
-        <td>Projeto de Vida</td>
-        <td>História</td>
-        <td>Informática Básica</td>
-        <td>Oficina Formativa</td>
-        <td>_______________</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="6" style="text-align: center;">1º B Informática.</td>
-      </tr>
-    </tfoot>
-  </table>
-</div>
-
-<footer style="text-align: center;">
-  <p> &copy Site feito por Arthur 1° B info e Guilherme 2° B info. </p>
-</footer>
-
-</body>
+		
+		</body>
+	</head>
 </html>
